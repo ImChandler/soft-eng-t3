@@ -1,0 +1,36 @@
+.container {
+    max-width: 1140px;
+    margin-inline: auto;
+    background-color: #e2e2e2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5rem;
+}
+
+.header {
+    text-align: center;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: 1px solid green;
+    background-color: transparent;
+    cursor: pointer;
+    text-align: center;
+    color: green;
+    border-radius: 5px;
+    transition: color 0.2s, background-color 0.2s;
+}
+.btn:active,
+.btn:focus {
+    outline: #4caf50 solid 5px;
+    outline-offset: 2px;
+}
+.btn:hover {
+    background-color: green;
+    color: #fff;
+}
